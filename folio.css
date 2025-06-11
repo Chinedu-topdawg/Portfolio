@@ -1,0 +1,300 @@
+:root{
+    --dark-blue: #020617;
+    --light-blue: #111827;
+    --yellow:#FACC15;
+    --white: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--dark-blue);
+}
+nav{
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    padding-top: 20px;
+
+}
+.navs{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.logo-me{
+    color: var(--yellow);
+}
+
+.navs li a{
+    text-transform: uppercase;
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* herosection styling */
+
+#herosection{
+    background-color: var(--light-blue);
+    height: 600px;
+}
+.herosection-container{
+    display: flex;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10%;
+}
+
+.herosection-container h4{
+    color: var(--yellow);
+    padding-bottom: 10px;
+}
+
+.herosection-container h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.herosection-container button{
+    background-color: var(--yellow);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* this is about section styling */
+#about{
+    background-color: var(--dark-blue);
+    height: 600px;
+}
+.aboutmecontainer{
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    padding-top: 40px;
+}
+.aboutmecontainer h1{
+    padding-bottom: 20px;
+}
+.about-me{
+    color: var(--yellow);
+}
+.aboutmecontainer p{
+    padding-bottom: 10px;
+}
+.aboutmecontainer button{
+    padding: 10px;
+    background-color: var(--yellow);
+    border-radius: 6px;
+}
+
+/* portfolio style section */
+#portfolio{
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.portfolio-text{
+    color: var(--yellow);
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.grid-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+    height: 6px;
+}
+.portfolio-container h1{
+    padding-bottom: 20px;
+}
+.portfolio-container p{
+    padding-bottom: 50px;
+}
+
+/* service style section */
+#service{
+    background-color: var(--light-blue);
+color: var(--white);
+height: 450px;
+}
+.service-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.service-text{
+    color: var(--yellow);
+}
+.services-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+.digital-marketing{
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+}
+.web-dev{
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+}
+.creative-graphic-design{
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+}
+.service-section-container h1{
+    padding-top: 20px;
+}
+.service-section-container p{
+    padding-top: 20px;
+}
+
+/* experience section styling */
+#experience{
+    background-color: var(--dark-blue);
+    color: var(--white);
+    height: 500px;
+}
+.experience-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.experience-text{
+    color: var(--yellow);
+}
+.experiences-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+.ux-ui{
+    border: solid;
+    border-color: black;
+    background-color: var(--light-blue);
+    border-radius: 10px;
+    padding: 20px;
+}
+.product-designer{
+    border: solid;
+    border-color: black;
+    background-color: var(--light-blue);
+    border-radius: 10px;
+    padding: 20px;
+}
+.graphic-designer{
+    border: solid;
+    border-color: black;
+    background-color: var(--light-blue);
+    border-radius: 10px;
+    padding: 20px;
+}
+.experience-section-container p{
+    padding-top: 20px;
+}
+.product-designer h4{
+    padding-bottom: 5px;
+}
+.product-designer h1{
+    padding-bottom: 5px;
+    color: var(--yellow);
+}
+.ux-ui h4{
+    padding-bottom: 5px;
+}
+.ux-ui h1{
+    padding-bottom: 5px;
+    color: var(--yellow);
+}
+.graphic-designer h4{
+    padding-bottom: 5px;
+}
+.graphic-designer h1{
+    padding-bottom: 5px;
+    color: var(--yellow);
+}
+/* contact section styling */
+#contact{
+    background-color: var(--light-blue);
+    color: var(--white);
+    height: 400px;
+}
+.contact-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.me-text{
+    color: var(--yellow);
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+span{
+    color: var(--yellow);
+}
+h3{
+    padding-top: 10px;
+}
+
+.contact-text {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.styled-input,
+.styled-textarea {
+  width: 50%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.1rem;
+}
+
+.styled-textarea {
+  height: 100px; /* Increased height */
+  resize: vertical;
+}
+/* footer section styling */
+#footer{
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
